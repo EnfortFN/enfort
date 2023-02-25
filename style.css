@@ -1,21 +1,58 @@
-body{
+body {
+    margin: 0;
     background: #EEEEEE;
-    margin:0;
     font-family: Arial;
 }
 
-header{
-background: #333333;
-padding: 20px;
-color: white;
-text-align: center;
+header {
+    background: #333333;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
-main{
-    background-color: white;
-    margin-top: 10px;
+nav a {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main {
+    background: white;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
+    padding: 20px;
+    border-radius: 10px;
     width: 80%;
+}
+main iframe {
+    width: 100%;
+}
+
+nav a:hover {
+    background-color: #0096ff;
+    color: black;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    max-width: 90%;
+}
+
+main li {
+    line-height: 1.5;
+}
+
+main p {
+    line-height: 1.5;
 }
