@@ -56,3 +56,22 @@ main li {
 main p {
     line-height: 1.5;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #681275;
+    padding: 4px;
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background-color: #ba69c7;
+}
+
+tr:nth-child(odd){
+    background-color: #0096ff;
+}
